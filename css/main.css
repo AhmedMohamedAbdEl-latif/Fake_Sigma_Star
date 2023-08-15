@@ -759,7 +759,9 @@ footer .copy-right span {
   .about .contact p {
     text-align: center;
   }
-
+  .about .info {
+    margin-top: 10px;
+  }
   .about .info .location {
     width: 90%;
     margin: 30px 0px;
@@ -772,22 +774,22 @@ footer .copy-right span {
     padding-bottom: 20px;
   }
   .about .info .location .address .details h7 {
-    padding-right: 5px;
+    padding-right: 10px;
   }
   .about .info .location .address .details p {
-    padding-left: 80px;
+    padding-left: 70px;
   }
   .about .info .location .email .details h7 {
-    padding-right: 5px;
+    padding-right: 10px;
   }
   .about .info .location .email .details p  {
-    padding-left: 80px;
+    padding-left: 70px;
   }
   .about .info .location .phone .details h7{
-    padding-right: 5px;
+    padding-right: 10px;
   }
   .about .info .location .phone .details p{
-    padding-left: 80px;
+    padding-left: 70px;
   }
 
   
