@@ -756,6 +756,9 @@ footer .copy-right span {
     text-align: center;
   }
 
+  .about .contact {
+    padding-bottom: 15px;
+  }
   .about .contact p {
     text-align: center;
   }
@@ -764,7 +767,7 @@ footer .copy-right span {
   }
   .about .info .location {
     width: 90%;
-    margin: 40px 0px;
+    margin: 30px 0px;
   }
 
   .about .info .location .address .details,
