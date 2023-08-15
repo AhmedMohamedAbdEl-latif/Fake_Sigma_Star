@@ -340,8 +340,8 @@ p {
 .about .info .location .address .details p {
 
   color: white;
-  font-size: 17px;
-  padding-left: 190px;
+  font-size: 16px;
+  padding-left: 170px;
 
 
 }
@@ -365,7 +365,7 @@ p {
 .about .info .location .email .details p {
   color: white;
   font-size: 17px;
-  padding-left: 150px;
+  padding-left: 140px;
 
 }
 
@@ -386,7 +386,7 @@ p {
 .about .info .location .phone .details p {
   color: white;
   font-size: 17px;
-  padding-left: 200px;
+  padding-left: 180px;
 }
 
 .about .info .location .map {
@@ -733,7 +733,6 @@ footer .copy-right span {
 
   .container {
     width: 98%;
-    padding-left: 20px;
   }
 
   .container .intro {
@@ -741,21 +740,29 @@ footer .copy-right span {
     justify-content: center;
   }
 
-  .cards {
-    padding-left: 50px;
+  .container .intro p {
+    text-align: center;
   }
 
   .cards .small-cards .smallcard {
     width: 100%
   }
 
-  .about {
-    margin-left: 20px;
+  .cards .Our-Services p {
+    text-align: center;
+  }
+
+  .cards .Our-clients p {
+    text-align: center;
+  }
+
+  .about .contact p {
+    text-align: center;
   }
 
   .about .info .location {
     width: 90%;
-    margin-bottom: 30px;
+    margin: 30px 0px;
   }
 
   .about .info .location .address .details,
@@ -764,7 +771,26 @@ footer .copy-right span {
     width: 90%;
     padding-bottom: 20px;
   }
+  .about .info .location .address .details h7 {
+    padding-right: 5px;
+  }
+  .about .info .location .address .details p {
+    padding-left: 80px;
+  }
+  .about .info .location .email .details h7 {
+    padding-right: 5px;
+  }
+  .about .info .location .email .details p  {
+    padding-left: 80px;
+  }
+  .about .info .location .phone .details h7{
+    padding-right: 5px;
+  }
+  .about .info .location .phone .details p{
+    padding-left: 80px;
+  }
 
+  
   .about .info .form {
     width: 100%;
   }
@@ -777,12 +803,8 @@ footer .copy-right span {
     text-align: center;
   }
 
-  .footer .copy-right h9 {
-    padding-left: 60px;
-  }
-
-  .footer .copy-right h10 {
-    padding-right: 60px;
+  .footer .copy-right {
+    text-align: center;
   }
 
 }
