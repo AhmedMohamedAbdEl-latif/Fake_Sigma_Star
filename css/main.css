@@ -246,7 +246,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  width: 80%;
+  width: 90%;
 
 }
 
@@ -254,7 +254,7 @@ p {
   width: 100%;
   height: 100px;
   text-align: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .about .contact h6 {
@@ -287,8 +287,8 @@ p {
   background-color: rgb(60, 60, 65);
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  padding: 20px 10px;
+  justify-content: space-between;
+  padding: 20px 15px;
 }
 
 
@@ -296,8 +296,8 @@ p {
 .about .info .location .address,
 .about .info .location .email,
 .about .info .location .phone {
-  display: flex;
-  justify-content: flex-end;
+  display: inline-block;
+  /* justify-content: space-between; */
   width: 100%;
   margin-bottom: 30px;
   flex-wrap: wrap;
@@ -312,6 +312,7 @@ p {
   width: 5%;
   height: 18px;
   padding: 8px;
+  text-align: center;
   color: red;
   background-color: black;
   border-radius: 50%;
@@ -342,6 +343,7 @@ p {
   font-size: 17px;
   padding-left: 190px;
 
+
 }
 
 .about .info .location .email .details {
@@ -363,7 +365,8 @@ p {
 .about .info .location .email .details p {
   color: white;
   font-size: 17px;
-  padding-left: 20px;
+  padding-left: 150px;
+
 }
 
 .about .info .location .phone .details {
@@ -371,7 +374,6 @@ p {
   text-align: right;
   margin-left: 46px;
   display: block;
-  margin-bottom: 30px;
 
 }
 
@@ -384,7 +386,7 @@ p {
 .about .info .location .phone .details p {
   color: white;
   font-size: 17px;
-  padding-left: 20px;
+  padding-left: 200px;
 }
 
 .about .info .location .map {
@@ -520,7 +522,7 @@ p {
 }
 
 .footer {
-  width: 80%;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
   padding: 40px 20px 20px;
@@ -566,10 +568,16 @@ footer .copy-right span {
   float: right;
 }
 
+.footer .copy-right .me {
+  color: aqua;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
 .footer .copy-right .me:hover {
   cursor: pointer;
-  color: aqua;
-  transition: 0.5s;
+  color: blanchedalmond;
+
 }
 
 @keyframes move {
@@ -580,23 +588,6 @@ footer .copy-right span {
 }
 
 /* ===== Media Query =====*/
-/* @media (max-width :1600px) {
-
-  .container{
-    width: 80%;
-  }
-  .about .info .location {
-    width: 38%;
-  }
-  .about .info .form {
-    width: 38%;
-  } */
-
-/* Max-Width = 1500px */
-/* @media (max-width :1500px){
-
-
-} */
 
 /* Max-Width = 1250px */
 
@@ -630,6 +621,9 @@ footer .copy-right span {
     width: 30%;
   }
 
+  p {
+    text-align: justify;
+  }
 }
 
 
@@ -742,24 +736,36 @@ footer .copy-right span {
 
   .container {
     width: 98%;
-
+    padding-left: 20px;
   }
 
   .container .intro {
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
-  .container .intro h1 {
-    padding-top: 0px;
+  .cards {
+    padding-left: 50px;
   }
 
-  cards .small-cards .smallcard {
-    width: 75%
+  .cards .small-cards .smallcard {
+    width: 100%
+  }
+
+  .about {
+    margin-left: 20px;
   }
 
   .about .info .location {
-    width: 100%;
+    width: 90%;
     margin-bottom: 30px;
+  }
+
+  .about .info .location .address .details,
+  .about .info .location .email .details,
+  .about .info .location .phone .details {
+    width: 90%;
+    padding-bottom: 20px;
   }
 
   .about .info .form {
@@ -770,12 +776,16 @@ footer .copy-right span {
     width: 100%;
   }
 
-  .footer .copy-right>h9 {
+  .footer .copy-right {
     text-align: center;
   }
 
-  .footer .copy-right>h10 {
-    text-align: center;
+  .footer .copy-right h9 {
+    padding-left: 60px;
+  }
+
+  .footer .copy-right h10 {
+    padding-right: 60px;
   }
 
 }
