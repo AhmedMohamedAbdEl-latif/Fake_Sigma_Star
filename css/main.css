@@ -732,7 +732,7 @@ footer .copy-right span {
 
 
   .container {
-    width: 98%;
+    width: 80%;
   }
 
   .container .intro {
@@ -742,6 +742,10 @@ footer .copy-right span {
 
   .container .intro p {
     text-align: center;
+  }
+
+  .cards {
+    width: 80%;
   }
 
   .cards .small-cards .smallcard {
@@ -756,15 +760,22 @@ footer .copy-right span {
     text-align: center;
   }
 
+  .about {
+    width: 80%;
+  }
+
   .about .contact {
     padding-bottom: 15px;
   }
+
   .about .contact p {
     text-align: center;
   }
+
   .about .info {
     margin-top: 10px;
   }
+
   .about .info .location {
     width: 90%;
     margin: 30px 0px;
@@ -775,33 +786,40 @@ footer .copy-right span {
   .about .info .location .phone .details {
     width: 90%;
     padding-bottom: 20px;
-  }
-  .about .info .location .address .details h7 {
-    padding-right: 10px;
-  }
-  .about .info .location .address .details p {
-    padding-left: 70px;
-  }
-  .about .info .location .email .details h7 {
-    padding-right: 10px;
-  }
-  .about .info .location .email .details p  {
-    padding-left: 70px;
-  }
-  .about .info .location .phone .details h7{
-    padding-right: 10px;
-  }
-  .about .info .location .phone .details p{
-    padding-left: 70px;
+    margin-bottom: 0px;
   }
 
-  
+  .about .info .location .address .details h7 {
+    padding-right: 15px;
+  }
+
+  .about .info .location .address .details p {
+    padding-left: 30px;
+  }
+
+  .about .info .location .email .details h7 {
+    padding-right: 13px;
+  }
+
+  .about .info .location .email .details p {
+    padding-left: 45px;
+  }
+
+  .about .info .location .phone .details h7 {
+    padding-right: 13px;
+  }
+
+  .about .info .location .phone .details p {
+    padding-left: 85px;
+  }
+
+
   .about .info .form {
     width: 100%;
   }
 
   .footer {
-    width: 100%;
+    width: 66%;
   }
 
   .footer .copy-right {
